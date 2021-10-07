@@ -12,6 +12,7 @@ public class BookServiceApplication {
 		
 	 ConfigurableApplicationContext	ctx=SpringApplication.run(BookServiceApplication.class, args);
 	
+	 System.out.println("Done");
 	 
 	 ctx.close();
 	}
